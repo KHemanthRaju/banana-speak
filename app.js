@@ -1,9 +1,9 @@
 var btntranslate = document.querySelector("#btn-translator");
 var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
 function clickHandler(){
-    console.log("Nature is so Beautiful")
-    console.log("Input"+txtInput.value);
+    outputDiv.innerText = "translated: "+textInput.value;
 };
 
 btntranslate.addEventListener("click", clickHandler);
