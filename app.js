@@ -16,7 +16,7 @@ function clickHandler() {
 
     fetch(getTranslatedURL(inputText))
         .then(response => response.json())
-        .then(json => console.log(json));
+        .then(json => console.log(json.contents.translated));
 };
 
 btntranslate.addEventListener("click", clickHandler);
