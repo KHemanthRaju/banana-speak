@@ -20,6 +20,7 @@ body {
 }
 
 textarea{
+    align-content: center;
         width:80%;
         display:block;
         margin:1rem 6rem;
