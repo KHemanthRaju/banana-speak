@@ -3,13 +3,23 @@
 :root {
     --primary-color: #fef08a;
     --secondary-color: #1e293b;
+    --width-break: 800px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    margin:0px;
-    text-align:center;
-    align-items: center;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
 }
 
 .banana-header{
@@ -19,16 +29,18 @@ body {
     font-size:2rem;
     font-family:sans-serif;
     font-weight:100;
-    
+    text-align:center;
 }
 
-textarea{
-        width:80%;
-        display:block;
-        margin:1rem 6rem;
-        height:10vh;
-        padding:1rem;
-    }
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
 
 #btn-translator{
     background-color:var(--primary-color);
@@ -41,13 +53,12 @@ textarea{
 }
 
     #output{
-        border:1px solid black;
-        height:10vh;
-        width:80%;
-        margin-top:1rem;
-        margin-left:6rem;
-        margin-bottom:2rem;
-        padding:1rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--secondary-color);
     }
 
 .link {
@@ -76,13 +87,18 @@ textarea{
     border-top-right-radius: 1rem;
 }
 
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
 .footer .link{
     color:black;
 }
 
 .footer .footer-header{
     font-weight:bold;
-    font-size:large;
+    font-size:medium;
 }
 
 .footer ul{
