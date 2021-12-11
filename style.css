@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+
 :root {
     --primary-color: #fef08a;
     --secondary-color: #1e293b;
@@ -7,6 +9,7 @@ body {
     font-family: "Montserrat", sans-serif;
     margin:0px;
     text-align:center;
+    align-items: center;
 }
 
 .banana-header{
@@ -20,7 +23,6 @@ body {
 }
 
 textarea{
-    align-content: center;
         width:80%;
         display:block;
         margin:1rem 6rem;
