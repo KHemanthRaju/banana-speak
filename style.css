@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #fef08a;
+    --secondary-color: #1e293b;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin:0px;
+    text-align:center;
+}
+
+.banana-header{
+    padding:1rem;
+    background-color:var(--primary-color);
+    margin-top:0rem;
+    font-size:2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:100;
+    
+}
+
+textarea{
+        width:80%;
+        display:block;
+        margin:1rem 6rem;
+        height:10vh;
+        padding:1rem;
+    }
+
+#btn-translator{
+    background-color:var(--primary-color);
+    color:black;
+    width:15rem;
+    padding:1rem;
+    border:none;
+    border-radius:1rem;
+    margin:1rem;
+}
+
+    #output{
+        border:1px solid black;
+        height:10vh;
+        width:80%;
+        margin-top:1rem;
+        margin-left:6rem;
+        margin-bottom:2rem;
+        padding:1rem;
+    }
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top:1rem;
+    margin-bottom:1rem; */
+}
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    padding:1rem 0rem;
+    text-align: center;
+    color:black;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:black;
+}
+
+.footer .footer-header{
+    font-weight:bold;
+    font-size:large;
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
+}
